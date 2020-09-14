@@ -19,6 +19,7 @@ NGRX: Store + Effects app
 
 
 <h2> Left off with Selectors </h2>
+<h3> https://app.ultimatecourses.com/course/ngrx-store-effects/state-composition-with-selectors </h3>
 
 ## Setup and install
 
