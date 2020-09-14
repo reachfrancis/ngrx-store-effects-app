@@ -17,6 +17,9 @@ NGRX: Store + Effects app
 [Setup and install](#setup-and-install) | [Tasks](#tasks) |
 [Resources](#resources)
 
+
+<h2> Left off with Selectors </h2>
+
 ## Setup and install
 
 Fork this repo from inside GitHub so you can commit directly to your account, or
