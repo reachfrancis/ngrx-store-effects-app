@@ -17,6 +17,10 @@ NGRX: Store + Effects app
 [Setup and install](#setup-and-install) | [Tasks](#tasks) |
 [Resources](#resources)
 
+
+<h2> Left off with Selectors </h2>
+<h3> https://app.ultimatecourses.com/course/ngrx-store-effects/state-composition-with-selectors </h3>
+
 ## Setup and install
 
 Fork this repo from inside GitHub so you can commit directly to your account, or
