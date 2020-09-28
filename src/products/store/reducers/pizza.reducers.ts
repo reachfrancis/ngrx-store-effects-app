@@ -24,12 +24,11 @@ export function reducer(state = initialState, action: fromPizzas.PizzasAction): 
             }
          }
         case fromPizzas.LOAD_PIZZAS_SUCCESS: {
-
-          const pizzas = action.payload;
-                        
+          const pizzas = action.payload;          
           // todo - come back here
           // rewrite & understand
-          const entities = pizzas.reduce(  (entities: { [id: number]: Pizza }, pizza: Pizza) => {
+          const entities = pizzas.reduce(  
+              (entities: { [id: number]: Pizza }, pizza: Pizza) => {
             return {
               ...entities,
               [pizza.id]: pizza
