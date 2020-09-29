@@ -5,7 +5,7 @@ NGRX: Store + Effects app
 <h4 align="center">Project seed app for our NGRX application using Angular, NGRX Store, Effects, Router Store.</h4>
 
 <h5> Work Module Extending our State Tree </h5>
-<h6 style="font:strong"> View Further Action Creators ==> Then Work it! </h6>
+<h6 style="font:strong"> View Multiple Reducers ==> Then Doit!</h6>
 
 <p > Update this section as you progress thru the class </p>
 
