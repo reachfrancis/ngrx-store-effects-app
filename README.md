@@ -4,7 +4,11 @@ NGRX: Store + Effects app
 </h1>
 <h4 align="center">Project seed app for our NGRX application using Angular, NGRX Store, Effects, Router Store.</h4>
 
----
+<h5> Work Module Extending our State Tree </h5>
+<h6 style="font:strong"> View Further Action Creators ==> Then Work it! </h6>
+
+<p > Update this section as you progress thru the class </p>
+
 
 <a href="https://ultimatecourses.com" target="_blank"><img src="https://ultimatecourses.com/static/banners/ultimate-ngrx-leader.svg"></a>
 
@@ -17,9 +21,6 @@ NGRX: Store + Effects app
 [Setup and install](#setup-and-install) | [Tasks](#tasks) |
 [Resources](#resources)
 
-
-<h2> Left off with Selectors </h2>
-<h3> https://app.ultimatecourses.com/course/ngrx-store-effects/state-composition-with-selectors </h3>
 
 ## Setup and install
 
