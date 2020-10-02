@@ -1,6 +1,5 @@
 import * as fromToppings from '../actions/toppings.action';
 import { Topping} from '../../models/topping.model';
-import { state } from '@angular/core/src/animation/dsl';
 
 export interface ToppingState {
     entities: { [id: number]: Topping};
@@ -44,7 +43,6 @@ export function reducer(state = initialState, action: fromToppings.ToppingsActio
               }
             );
             
-  
             return {
                   ...state,
                   loaded: true,
