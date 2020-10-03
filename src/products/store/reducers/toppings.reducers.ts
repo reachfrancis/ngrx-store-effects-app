@@ -56,15 +56,14 @@ export function reducer(state = initialState, action: fromToppings.ToppingsActio
                 ...state,
                 loading:false,
                 loaded:false
-            }
-        }
-
-        default: {
-        return state;
-      } 
-
+            };
+         }
+       
+        default:  
+          return state;
+        } 
   }
-}
+
 
 export const getToppingEntities = ( state: ToppingState) => state.entities;
 export const getToppingsLoaded =  ( state: ToppingState) => state.loaded;
