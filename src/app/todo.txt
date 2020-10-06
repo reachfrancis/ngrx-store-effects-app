@@ -1,7 +1,2 @@
 
-1) Finish Reading  the Chapter on Selectors
-    Left of on https://ngrx.io/guide/store/selectors 
-                  Selecting Feature States
-
-
-2) Continue with Mapping IDs to Entities
+1) Continue with Selectors and Async Pipe
