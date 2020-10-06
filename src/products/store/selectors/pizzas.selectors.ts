@@ -5,7 +5,7 @@ import * as fromRoot from '../../../app/store';
 import * as fromFeature from '../reducers';
 import * as fromPizzas from '../reducers/pizza.reducers';
 
-import * as fromToppings from '../selectors';
+import * as fromToppings from '../selectors/toppings.selectors';
 
 
 export const getPizzaState = createSelector(
@@ -36,6 +36,8 @@ export const getPizzaVisualised = createSelector(
        return { ...pizza, toppings};
    }
 );
+
+
 
 export const getAllPizzas = createSelector(
     getPizzasEntities,

@@ -1,2 +1,5 @@
 
-1) Continue with Selectors and Async Pipe
+1) Next-up 
+   a) Creating, Via Dispatch, Reducer and Effect
+
+   
