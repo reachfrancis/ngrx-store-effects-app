@@ -192,6 +192,16 @@
         }
       ],
       "id": 6
+    },
+    {
+      "name": "Just Chili Pizza",
+      "toppings": [
+        {
+          "id": 4,
+          "name": "chili"
+        }
+      ],
+      "id": 7
     }
   ]
 }
