@@ -1,5 +1,5 @@
 
 1) Next-up 
-   a) Creating, Via Dispatch, Reducer and Effect
+   Updating, Via Dispatch, Reducer and Effect...
 
    
