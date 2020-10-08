@@ -64,9 +64,10 @@ export class ProductItemComponent implements OnInit {
    this.store.dispatch( new fromStore.UpdatePizza(event));
   }
 
-  onRemove() {
+  onRemove(event: Pizza) {
     const remove = window.confirm('Are you sure?');
     if (remove) {    
+      this.store.dispatch( new fromStore.DeletePizza(event));
     }
   }
 }

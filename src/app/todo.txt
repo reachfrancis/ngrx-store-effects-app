@@ -1,5 +1,6 @@
 
 1) Next-up 
-   Updating, Via Dispatch, Reducer and Effect...
+   Deleting, via Dispatch, Reducer and Effect.
 
+2) 
    
