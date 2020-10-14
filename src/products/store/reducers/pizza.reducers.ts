@@ -100,9 +100,5 @@ export function reducer(state = initialState, action: fromPizzas.PizzasAction): 
  export const getPizzasEntities = (state: PizzaState) => state.entities;
  export const getPizzasLoading = (state: PizzaState) => state.loading;
  export const getPizzasLoaded = (state: PizzaState) => state.loaded;
- 
- 
- 
- 
 
 

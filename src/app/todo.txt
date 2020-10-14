@@ -1,6 +1,6 @@
 
 1) Next-up 
-   Deleting, via Dispatch, Reducer and Effect.
+   Multiple Actions in Effects, Router Actions
 
-2) 
+
    
