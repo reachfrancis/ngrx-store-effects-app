@@ -70,7 +70,7 @@ export class PizzasEffect{
         return this.pizzasService
         .removePizza(pizza)
         .pipe(
-          map( () => new pizzaActions.DeletePizzaSuccess(pizza)),
+          map( _ => new pizzaActions.DeletePizzaSuccess(pizza)),
           catchError( error => of (new pizzaActions.DeletePizzaFail(error)))
         )
       })

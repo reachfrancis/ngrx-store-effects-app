@@ -72,6 +72,9 @@ export function reducer(state = initialState, action: fromPizzas.PizzasAction): 
         case fromPizzas.DELETE_PIZZA_SUCCESS:{
 
             const pizza = action.payload;
+
+            // interesting, this statement removes the pizza from the
+            // the collection - not sure how this statement really works
             const { [pizza.id]: removed, ...entities} = state.entities;
           
             return {
@@ -80,8 +83,6 @@ export function reducer(state = initialState, action: fromPizzas.PizzasAction): 
             };
         }
 
-
-
         case fromPizzas.CREATE_PIZZA_FAIL: {
             return {
                 ...state,
@@ -89,7 +90,6 @@ export function reducer(state = initialState, action: fromPizzas.PizzasAction): 
                 loaded:false
             } 
         }
-
     
         default: {
             return state;
