@@ -45,7 +45,6 @@ export class PizzasEffect{
       })
     )
 
-
     @Effect()
     createPizzaSuccess$ = this.actions$
     .ofType(pizzaActions.CREATE_PIZZA_SUCCESS)
@@ -57,8 +56,6 @@ export class PizzasEffect{
         })
       )
     );
-
-
     @Effect()
     updatePizza$ = this.actions$
     .ofType(pizzaActions.UPDATE_PIZZA)
@@ -90,7 +87,6 @@ export class PizzasEffect{
       })
     )
 
-
     @Effect()
     handlePizzaSuccess$ = this.actions$
     .ofType(pizzaActions.UPDATE_PIZZA_SUCCESS, pizzaActions.DELETE_PIZZA_SUCCESS)
@@ -99,4 +95,4 @@ export class PizzasEffect{
         return new fromRoot.Go({ path: ['/products']})
       })
     )
-}
+    }
