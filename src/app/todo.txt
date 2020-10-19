@@ -1,6 +1,6 @@
 
 1) Next-up 
-   Guards that check Store Entities
+   One More Guard!
 
 
    
