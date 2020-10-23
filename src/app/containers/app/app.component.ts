@@ -23,4 +23,3 @@ import { Component } from '@angular/core';
   `,
 })
 export class AppComponent {}
-/** test comment */
