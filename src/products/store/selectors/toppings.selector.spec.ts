@@ -7,7 +7,6 @@ import * as fromActions from '../actions';
 import * as fromSelectors from './toppings.selectors';
 
 import { Topping } from '../../models/topping.model';
-import { expressionType } from '@angular/compiler/src/output/output_ast';
 
 describe('Toppings Selectors', () => {
     let store: Store<fromReducers.ProductState>;
@@ -57,9 +56,7 @@ describe('Toppings Selectors', () => {
 
             expect(result).toEqual(entities);
         
-
         });
 
     });
-
 });
