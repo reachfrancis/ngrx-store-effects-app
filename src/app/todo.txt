@@ -1,6 +1,6 @@
 
 1) Next-up 
-   Testing Actions
+   Testing Reducers
 
 
    
