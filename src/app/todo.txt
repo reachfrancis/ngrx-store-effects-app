@@ -2,8 +2,6 @@
 1) Next-up 
    Testing Reducers
 
-   Keep going !
-
 
 
 
