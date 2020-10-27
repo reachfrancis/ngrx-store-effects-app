@@ -1,4 +1,4 @@
-Left of on Page 50 - working with Remotes
+Chapter 3 - Branching Git Branching Pg 64
 
 
 
